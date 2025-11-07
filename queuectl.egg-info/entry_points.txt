@@ -1,0 +1,3 @@
+[console_scripts]
+queuectl = queuectl.main:app
+
