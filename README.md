@@ -1,9 +1,4 @@
 # queuectl: A CLI-based Background Job Queue
-
-A minimal, persistent, CLI-based background job queue system built in Python, using SQLite for persistence and Typer for the CLI.
-
-**CLI Demo:** 
-
 ---
 
 ## Features
