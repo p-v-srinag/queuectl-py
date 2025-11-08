@@ -90,11 +90,13 @@ queuectl config set max_retries 5
 
 # Show the current configuration
 queuectl config show
-Architecture Overview
-Job Lifecycle
 ```
+### Architecture Overview
 
-A job progresses through the following states: PENDING -> PROCESSING -> ( COMPLETED | FAILED ) If FAILED, it retries: FAILED -> PENDING If all retries are exhausted: FAILED -> DEAD (moved to DLQ)
+"Job Lifecycle"
+
+A job progresses through the following states: PENDING -> PROCESSING -> ( COMPLETED | FAILED)                
+If FAILED, it retries: FAILED -> PENDING If all retries are exhausted: FAILED -> DEAD (moved to DLQ)
 
 ### Data Persistence
 
